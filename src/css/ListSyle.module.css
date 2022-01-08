@@ -1,0 +1,18 @@
+.MapSection__listItems_hidden{
+    visibility: hidden;
+    list-style: none;
+    height: 35px;
+}
+.MapSection__listItems{
+    position: relative;
+    list-style: none;
+    background-color: green;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    box-shadow:  0 1px 0 #091e4240;
+}
+
+.MapSection__closeIcon{
+    position: absolute;
+    right:1px;
+}

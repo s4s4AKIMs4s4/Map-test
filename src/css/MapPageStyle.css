@@ -1,0 +1,23 @@
+.MapSection{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+    gap:10px;
+}
+.MapSection__logic{
+    display: flex;
+    flex-flow: column;
+}
+.MapSection__input{
+    display: flex;
+    justify-content:start;
+}
+.MapSection__View{
+    width: 100vw;
+    height: 100vh;
+    z-index: 6;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+}
