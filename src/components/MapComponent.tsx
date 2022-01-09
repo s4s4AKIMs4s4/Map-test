@@ -5,7 +5,7 @@ import withScriptjs from "react-google-maps/lib/withScriptjs"
 import {IMarker,IPoligonPaths} from '../components/mapTypes'
 import shortid from 'shortid';
 import Modal from "./Modals/Modal"
-
+import MapStyle from "../css/Map.module.css"
 interface IProps{
   paths:IMarker[],
   setPath:Function, 
@@ -73,7 +73,7 @@ const MyMapComponent =withScriptjs(withGoogleMap((props:IProps) =>
         props.paths.map( p => {
         if(p.lat === 0) return
         return <InfoWindow position = {p} >
-                <span data-id ={p.id} onClick = {clickMarketHandler} > {p.description} </span>
+                <span data-id ={p.id} className={MapStyle.MapSection__marker} onClick = {clickMarketHandler} > {p.description} </span>
               </InfoWindow>
         })
     )

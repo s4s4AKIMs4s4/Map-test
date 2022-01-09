@@ -47,7 +47,7 @@ export const InputMapValue = (props: Props) => {
       };
 
     return (
-        <Form className='Form'
+        <Form
       name="basic"
       labelCol={{ span: 8 }}
       wrapperCol={{ span: 16 }}

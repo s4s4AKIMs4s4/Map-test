@@ -6,7 +6,8 @@
 .MapSection__listItems{
     position: relative;
     list-style: none;
-    background-color: green;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255); 
     margin-bottom: 15px;
     border-radius: 3px;
     box-shadow:  0 1px 0 #091e4240;

@@ -152,12 +152,11 @@ function MapPage() {
             <List paths={paths} dispetcherDown={dispetcherDown}/>
           </div>
         </div>
-        
         <div className="MapSection__View">
           <MyMapComponent  
             paths = {paths}
             setPath = {setPath}
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEA48qllJgryMgWhCnXmUOKVQssZBX-kQ&libraries=geometry,drawing,places"
+            googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `100%` }} />}
             mapElement={<div style={{ height: `100%` }} />}
